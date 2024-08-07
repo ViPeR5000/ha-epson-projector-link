@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "media_player": {
+      "projector": {
+        "state": {
+          "cooldown": "Arrefecimento",
+          "on": "Ligado",
+          "off": "Desligado",
+          "warmup": "A Aquecer"
+        }
+      }
+    }
+  },
+  "config": {
+    "error": {
+      "cannot_connect": "Falha na ligação",
+      "cannot_find_projector": "Não consegui encontrar o projector. Certifique-se que o projector tem a rede activada e está em standby.",
+      "projector_off": "O projector esta desligado",
+      "property_error_auto_iris_mode": "Modo \"Auto Iris \" Não é suportado ou o projector está desligado.",
+      "property_error_brightness": "Propriedade \"Bilho\" Não é suportado ou o projector está desligado.",
+      "property_error_color_mode": "Propriedade \"Modo de Cor\" Não é suportado ou o projector está desligado",
+      "property_error_lamp_hours": "Propriedade \"Tempo da lâmpada\" Não é suportado ou o projector está desligado",
+      "property_error_is_volume_muted": "Property \"Volume mudo\" is not supported or projector is off.",
+      "property_error_power_consumption_mode": "Propriedade \"Consumo de energia\" Não é suportado ou o projector está desligado.",
+      "property_error_source": "Propridade \"Fonte\" Não é suportado ou o projector está desligado.",
+      "property_error_volume": "Proprieade \"Volume\" Não é suportado ou o projector está desligado."
+    },
+    "step": {
+      "user": {
+        "description": "Configurar o projector Epson . **Certificate que o projector está ligado e em modo standby.**\n\n Tens que manter o modo de rede activada. Para o modo home cinema set **\"Standby Mode\"** to **\"Standby Mode: Communication On\"**. Só o estado de ligar será activado ..",
+        "data": {
+          "host": "Host",
+          "name": "Nome",
+          "scan_interval": "Tempo entre pesquisas estado ligado",
+          "poll_properties": "Propeidades adicionais",
+          "poll_properties_scan_interval": "Intervalo de pesquisas em segundos"
+        }
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "projector_off": "O projector esta desligado",
+      "property_error_auto_iris_mode": "Modo \"Auto Iris \" Não é suportado ou o projector está desligado.",
+      "property_error_brightness": "Propriedade \"Bilho\" Não é suportado ou o projector está desligado.",
+      "property_error_color_mode": "Propriedade \"Modo de Cor\" Não é suportado ou o projector está desligado",
+      "property_error_lamp_hours": "Propriedade \"Tempo da lâmpada\" Não é suportado ou o projector está desligado",
+      "property_error_is_volume_muted": "Property \"Volume mudo\" is not supported or projector is off.",
+      "property_error_power_consumption_mode": "Propriedade \"Consumo de energia\" Não é suportado ou o projector está desligado.",
+      "property_error_source": "Propridade \"Fonte\" Não é suportado ou o projector está desligado.",
+      "property_error_volume": "Proprieade \"Volume\" Não é suportado ou o projector está desligado."
+    },
+    "step": {
+      "init": {
+        "description": "Configurar o projector Epson . **Certificate que o projector está ligado e em modo standby.**\n\n Tens que manter o modo de rede activada. Para o modo home cinema set **\"Standby Mode\"** to **\"Standby Mode: Communication On\"**. Só o estado de ligar será activado ..",
+        "data": {
+          "scan_interval": "Tempo entre pesquisas estado ligado",
+          "poll_properties": "Propeidades adicionais",
+          "poll_properties_scan_interval": "Intervalo de pesquisas em segundos"
+        }
+      }
+    }
+  }
+}
